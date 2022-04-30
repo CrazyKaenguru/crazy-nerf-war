@@ -66,6 +66,16 @@ function updateTimeRE() {
     pauseBL();
     pauseRE();
 });
+document.getElementById('resetGame').addEventListener('click', ()=>{
+    document.getElementById('resetGame').disabled=true;
+    document.getElementById('noresetGame').disabled=false;
+    document.getElementById('reallyresetGame').disabled=false;
+});
+document.getElementById('noresetGame').addEventListener('click', ()=>{
+    document.getElementById('resetGame').disabled=false;
+    document.getElementById('reallyresetGame').disabled=true;
+    document.getElementById('noresetGame').disabled=true;
+});
 document.getElementById('startGame').addEventListener('click', ()=>{
     if(document.getElementById("team_blue_button").disabled == true)
     {
