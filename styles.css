@@ -1,0 +1,32 @@
+h1 {
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+}
+.team_blue{
+    float: left;
+    width: 50%;
+    height: 200px;
+    box-sizing: border-box;
+    background: blue;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.team_red{
+    float: right;
+    width: 50%;
+    height: 200px;
+    box-sizing: border-box;
+    background: red;
+    text-align: center;
+    border: 1px solid black;
+}
+.Settings{
+    position: absolute; 
+    height: 10px; 
+    bottom: 30px;
+    left: 5;
+    
+}
+
+
