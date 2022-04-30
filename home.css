@@ -1,0 +1,23 @@
+.header-image{
+    background-image:url("headimg.jpg");
+    background-position: center;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+}
+.siteheader{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+.Gamemodes{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+.kingofthehillbutton{
+    cursor: pointer;
+    background-color: orange;
+    border: 0ch;
+    padding: 20px 50px;
+}
