@@ -1,0 +1,28 @@
+.Display{
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
+.Display_Input{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+   
+}
+.DisplayOuter{
+    border: 1px solid gray;
+    padding: 20px;
+   height: 30px;
+}
+.NumPadButton
+{
+    width: 80px;
+    height: 80px;
+}
+.NumPadButton:hover
+{
+    background-color: rgb(255, 0, 0);
+}
+.settings{
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    visibility: hidden;
+}

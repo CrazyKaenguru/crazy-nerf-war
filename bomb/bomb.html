@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Nerf War</title>
+    <link rel="stylesheet" href="bomb.css">
+    <script src="bomb.js"></script> 
+</head>
+<body>
+    <h1>Bomb Mode</h1>
+ <div class="Display_Input">
+     <div class="DisplayOuter">
+    <span class="Display" id="Display">(Setup)_Set Bomb Password|→ to continue_</span>
+    </div> 
+    <div>
+        <button class="NumPadButton" onclick="add1()">1</button>
+        <button class="NumPadButton" onclick="add2()">2</button>
+        <button class="NumPadButton" onclick="add3()">3</button>
+        <br>
+        <button class="NumPadButton" onclick="add4()">4</button>
+        <button class="NumPadButton" onclick="add5()">5</button>
+        <button class="NumPadButton" onclick="add6()">6</button>
+        <br>
+        <button class="NumPadButton" onclick="add7()">7</button>
+        <button class="NumPadButton" onclick="add8()">8</button>
+        <button class="NumPadButton" onclick="add9()">9</button>
+        <br>
+        <button class="NumPadButton" onclick="deleteInput()">X</button>
+        <button class="NumPadButton"  onclick="add0()">0</button>
+        <button class="NumPadButton"  onclick="submit()">→</button>
+        
+    </div>
+ </div>
+ <button onclick="changesettingsvisibility()">Settings</button>
+ <div id="settings" class="settings">
+     <p>Fuse Time</p>
+<input type="number" id="ReamTimeInput"class="ReamTimeInput" value=""> 
+<button onclick="changeReamTime()">Change Settings</button>
+ </div>
+
+ 
+    
+</body>
+</html>
