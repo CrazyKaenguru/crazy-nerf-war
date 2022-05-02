@@ -21,3 +21,16 @@ background-size: cover;
     border: 0ch;
     padding: 20px 50px;
 }
+.ad1{
+    text-align: left;
+    position: relative;
+    top: -100px;
+}
+.ad2{
+     text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .ad1{
+        top: 40px;
+    }
+}
