@@ -33,4 +33,7 @@ background-size: cover;
     .ad1{
         top: 40px;
     }
+    .ad2{
+        display: none;
+    }
 }
