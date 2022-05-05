@@ -16,10 +16,13 @@
 {
     width: 80px;
     height: 80px;
+    border: 1px solid black;
+    font-size: 50px;
+
 }
 .NumPadButton:hover
 {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(30, 255, 0);
 }
 .settings{
     position: relative;
