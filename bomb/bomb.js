@@ -244,6 +244,30 @@ function changesettingsvisibility()
         visible=false;
     }
 }
+var advisible= true;
+function changeadVisibility()
+{
+  if(advisible==false)
+    {
+        showAd();
+        advisible=true;
+    }
+    else
+    {
+       hidead();
+        advisible=false;
+    }
+
+}
+function showAd()
+{
+    document.getElementById("ad1").style.visibility="visible";
+
+}
+function hidead()
+{
+    document.getElementById("ad1").style.visibility="hidden";
+}
 //#endregion
 
 
