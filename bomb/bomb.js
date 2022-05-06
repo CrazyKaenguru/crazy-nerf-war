@@ -274,29 +274,13 @@ function changesettingsvisibility()
         visible=false;
     }
 }
-var advisible= true;
-function changeadVisibility()
-{
-  if(advisible==false)
-    {
-        showAd();
-        advisible=true;
-    }
-    else
-    {
-       hidead();
-        advisible=false;
-    }
-
+function CloseAd(){
+document.getElementById("ad1").remove();
+removeadButtonfun();
 }
-function showAd()
+function removeadButtonfun()
 {
-    document.getElementById("ad1").style.visibility="visible";
-
-}
-function hidead()
-{
-    document.getElementById("ad1").style.visibility="hidden";
+ document.getElementById("removeadButton").remove();
 }
 //#endregion
 
