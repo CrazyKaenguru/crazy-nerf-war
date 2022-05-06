@@ -167,6 +167,33 @@ function changeReamTime()
     ReamTime=document.getElementById("ReamTimeInput").value;
     console.log(ReamTime);
 }
+function changeReamTime20s()
+{
+ReamTime=20;
+    console.log(ReamTime);
+}
+function changeReamTime50s()
+{
+ReamTime=50;
+    console.log(ReamTime);
+}
+function changeReamTime80s()
+{
+ReamTime=80;
+    console.log(ReamTime);
+}
+function changeReamTime100s()
+{
+ReamTime=100;
+    console.log(ReamTime);
+}
+function changeReamTime120s()
+{
+ReamTime=120;
+    console.log(ReamTime);
+}
+
+
 //#region Timers
 function ExpTimer()
 {
@@ -204,6 +231,9 @@ function ReamTimemin1()
     setTimeout(PlaySound,1100);
     }
  }
+ 
+
+ 
 //#endregion
 //#region Detonate
 
