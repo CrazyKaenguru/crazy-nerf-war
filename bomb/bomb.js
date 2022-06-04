@@ -159,7 +159,7 @@ function Defuse()
  }
 }
 
-var ReamTime=5;
+var ReamTime=60;
 var Detonated=false;
 var soundstartet=false;
 function changeReamTime()
@@ -254,11 +254,12 @@ function Detonate()
 
 function HideSettings()
 {
-   document.getElementById("settings").style.visibility="hidden";
+    document.getElementById("settings").style.display=none;
 }
 function showsettings()
 {
-    document.getElementById("settings").style.visibility="visible";
+    
+    document.getElementById("settings").style.display=none;
 }
 visible=false;
 function changesettingsvisibility()

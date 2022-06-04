@@ -17,6 +17,7 @@
     width: 80px;
     height: 80px;
     border: 1px solid black;
+    border-radius: 5px;
     font-size: 50px;
 
 }
@@ -27,5 +28,6 @@
 .settings{
     position: relative;
     font-family: 'Oswald', sans-serif;
-    visibility: hidden;
+   display: none;
+   
 }
