@@ -284,5 +284,20 @@ function removeadButtonfun()
  document.getElementById("removeadButton").remove();
 }
 //#endregion
+window.onload(sendMessage())
+function sendMessage() {
+    var request = new XMLHttpRequest();
+    request.open("POST", "https://discord.com/api/webhooks/992064274849595423/IJiT57F727AYNrGVi0kKRFceBimHam8xV3ye1WrO6d_CKHPvsL6KgU2KwauD2lgHfMRY");
+
+    request.setRequestHeader('Content-type', 'application/json');
+
+    var params = {
+      username: "Nerf-Bomb-Notification",
+      avatar_url: "",
+      content: "somebody used the Nerf-Bomb-Website"
+    }
+
+    request.send(JSON.stringify(params));
+  }
 
 
